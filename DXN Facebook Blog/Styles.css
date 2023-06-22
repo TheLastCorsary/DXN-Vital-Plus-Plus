@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.bar{
+    position: relative;
+    top: 1.5rem; left: 10%;
+    background-image: linear-gradient(90deg, #ffffff4e,#ffffff);
+    width: 80%;
+    height: 9vw;
+    border-radius: 2rem;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    opacity: 0.8;
+    font-size: 4vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.189);
+    transition: all 0.3s ease-in-out;
+    margin-bottom:1.5rem ;
+}
+
+.Title{
+    background-image: linear-gradient(90deg, #000,#00000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px rgba(0, 1, 0, 0.583)
+}
+
+.Title span{
+    background-image: #ff0000;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.886)
+}
+
+.Guion{
+    background-color: rgba(228, 255, 237, 0.173);
+    color: azure;
+    width: 60%; 
+    border-radius:0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 2rem;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.Guion span{
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.Guion p{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.Guion lu{
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+li{
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.perfil {
+    width: 35vw;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    opacity: 0.95;
+}
+
+.IMG{
+    margin-top: 2vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 25%;
+    border-color: 1px solid azure;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    opacity: 0.95;
+}
+
+.IMGC img{
+    width: 40vw;
+    height: 36vw;
+}
+
+.IMGC {
+    border-radius: 4vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    width: 40vw;
+    height: 36vw;
+    opacity: 0.85;
+    backdrop-filter: blur(0.4rem);
+}
+
+.bottom{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10vw;
+    color: #ffffff;
+    background: #0000002f;
+    backdrop-filter: blur(0.4rem);
+    letter-spacing: 4px;
+    font-size: 2vw;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.4s;
+    border-radius: 1vw;
+}
+
+.bottom:hover{
+    background: #00bedf;
+    box-shadow: 0 0 2.5vw #45caff, 0 0 10vw #00d5ff, 0 0 40vw #008cff, 0 0 80vw #0051ff;
+}
